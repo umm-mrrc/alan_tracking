@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: IceNetworkPosition - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "c:\Temp\RSPBEA.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "\n4_opensource\STLport\stlport" /I "\n4\pkg" /I "\n4\tool" /I "\n4_prod\x86\prod\include" /I "\n4\x86\delivery\include" /I "\n4_deli_vb15a\x86\delivery\include" /I "\n4\x86\extsw\MedCom\include" /I "\SWF_extern\SDK\include" /I "\n4\pkg\MrServers\MrVista\include" /I "\n4\pkg\MrServers\MrVista\Ice\IceIdeaFunctors\IceNetworkPosition" /I "\n4\x86\extsw\MedCom\versant\vds605/h" /I "\n4\x86\extsw\include" /D "MFCDebug" /D "_DEBUG" /D "RWDEBUG" /D WINVER=0x500 /D _WIN32_WINNT=0x500 /D "WIN32" /D "_WINDOWS" /D "WinNT400" /D "MSVC60" /D AFX_NOVTABLE= /D PARC_MODULE_NAME=IceNetworkPosition /D "_RWTOOLSDLL" /D "_UNICODE" /D "UNICODE" /D "O_DLL_PCLASS_ONLY" /D "ICEIDEAFUNCTORS_EXPORTS" /D "BUILD_IceNetworkPosition" /D "CSA_HAS_DLL" /D "ACE_HAS_DLL" /D "BUILD_IceScanFunctors" /FR"Debug/" /Fp"Debug/IceNetworkPosition.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"x:\n4\pkg\MrServers\MrVista\Ice\IceIdeaFunctors\IceNetworkPosition\NetworkPositionConfigurator.cpp"
+"x:\n4\pkg\MrServers\MrVista\Ice\IceIdeaFunctors\IceNetworkPosition\NetworkPositionFunctor.cpp"
+"x:\n4\pkg\MrServers\MrVista\Ice\IceIdeaFunctors\IceNetworkPosition\NetworkPositionObjectMap.cpp"
+]
+Creating command line "cl.exe @c:\Temp\RSPBEA.tmp" 
+Creating temporary file "c:\Temp\RSPBEB.tmp" with contents
+[
+rwtoold.lib aced.lib liboscfe.lib mscchk.lib mscvcch.lib i18nd.lib IceAlgosd.lib IceBasicd.lib IceImageReconFunctorsd.lib IceUtilsd.lib MrParcd.lib IceScanFunctors.lib MrEvaTransformCoordinatesd.lib MrBasicObjectsd.lib libMES4BVd.lib /nologo /dll /incremental:yes /pdb:"\n4\x86\prod\bin/IceNetworkPositiond.pdb" /debug /machine:I386 /out:"\n4\x86\prod\bin\IceNetworkPositiond.dll" /implib:"\n4\x86\prod\bin/IceNetworkPositiond.lib" /pdbtype:sept /libpath:"\n4_prod\x86\prod\lib" /libpath:"\n4\x86\extsw\MedCom\lib" /libpath:"\n4_deli_vb15a\x86\delivery\lib" /libpath:"\SWF_extern\SDK\lib" /libpath:""/n4/x86/extsw/MedCom/lib"" /libpath:""/n4_deli_vb15a/x86/delivery/lib"" 
+.\Debug\NetworkPositionConfigurator.obj
+.\Debug\NetworkPositionFunctor.obj
+.\Debug\NetworkPositionObjectMap.obj
+]
+Creating command line "link.exe @c:\Temp\RSPBEB.tmp"
+<h3>Output Window</h3>
+Compiling...
+NetworkPositionConfigurator.cpp
+NetworkPositionFunctor.cpp
+NetworkPositionObjectMap.cpp
+Linking...
+   Creating library \n4\x86\prod\bin/IceNetworkPositiond.lib and object \n4\x86\prod\bin/IceNetworkPositiond.exp
+Creating command line "bscmake.exe /nologo /o"\n4\pkg\MrServers\MrVista\Ice\IceIdeaFunctors\IceNetworkPosition\x86\IceNetworkPosition.bsc"  .\Debug\NetworkPositionConfigurator.sbr .\Debug\NetworkPositionFunctor.sbr .\Debug\NetworkPositionObjectMap.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+IceNetworkPositiond.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
